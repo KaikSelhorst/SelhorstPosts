@@ -1,0 +1,17 @@
+{
+  "meta": [
+    {
+      "name": "description",
+      "content": "Learn the basics of Three.js by adding a plane, a cube, and a light source to create a simple 3D scene."
+    },
+    {
+      "name": "keywords",
+      "content": "Three.js, Kaik Selhorst, Tutorial, Animation, JavaScript"
+    },
+    {
+      "name": "author",
+      "content": "Kaik Selhorst"
+    }
+  ],
+  "date": "24-02-2023"
+}
