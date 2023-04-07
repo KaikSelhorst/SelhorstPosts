@@ -1,4 +1,4 @@
-# Three.js
+# Three.js For Beginners
 
 - [What's Three.js](#what-is-threejs)
 - [Minimal Requirements](#minimal-requirements)
@@ -236,8 +236,3 @@ function animete() {
 ```
 
 ### Thanks for the learn this 🙂
-
-- E-mail: [oficial.kaikselhorst@gmail.com](mailto:oficial.kaikselhorst@gmail.com)
-- Discord: [Bseven#4712](https://discord.com/users/690249250067841031)
-- LinkedIn: [@KaikSelhorst](https://www.linkedin.com/in/Kaikselhorst/)
-- Github: [@KaikSelhorst](https://github.com/KaikSelhorst)
