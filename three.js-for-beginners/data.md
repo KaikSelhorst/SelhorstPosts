@@ -1,7 +1,7 @@
 # Three.js For Beginners
 
 - [What's Three.js](#what-is-threejs)
-- [Minimal Requirements](#minimal-requirements)
+- [Prerequisites](#prerequisites)
 - [Create Renderer Scene Camera](#create-renderer-scene-camera)
 - [Create SpotLight AmbientLight](#create-spotlight-ambientlight)
 - [Create Object 3D External](#create-object-3d-external)
@@ -12,10 +12,9 @@
 
 Three.js is a powerful JavaScript library used for creating and displaying 3D graphics on the web. It provides a wide range of features for creating complex and interactive 3D scenes, including lighting, materials, textures, cameras, and more. Three.js is widely used by developers and designers to create stunning visualizations, games, and animations that can run directly in a web browser.
 
-### Minimal Requirements
+### Prerequisites
 
-- Node.js
-- Npm/Yarn
+The only minimum requirement for a Node project is the installation of Node.js on your computer or server. Node.js is a runtime platform that allows you to run JavaScript applications on the server.
 
 ```bash
 # Create Mininal Vanilla JavaScript Project starter
