@@ -27,9 +27,7 @@ cd <project-name>
 npm install three               # or yarn add three
 ```
 
-I’m used this model in tutorial
-
-[Fox](https://sketchfab.com/3d-models/fox-6144ebf03c914977921677a3e4ffffe2)
+I’m used this model in tutorial [Fox](https://sketchfab.com/3d-models/fox-6144ebf03c914977921677a3e4ffffe2)
 
 ```js
 // main.js
