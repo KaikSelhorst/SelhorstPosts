@@ -1,11 +1,11 @@
-- [1. Definition of frameworks and vanilla JS ](#definition-of-frameworks-and-vanilla-js)
-- [2. Advantages of using frameworks ](#advantages-of-using-frameworks)
-- [3. Advantages of using vanilla JS ](#advantages-of-using-vanilla-js)
-- [4. Disadvantages of using frameworks ](#disadvantages-of-using-frameworks)
-- [5. Disadvantages of using vanilla JS ](#disadvantages-of-using-vanilla-js)
-- [6. Examples of popular frameworks ](#examples-of-popular-frameworks)
-- [7. When to use a framework vs. when to use vanilla JS. ](#when-to-use-a-framework-vs-when-to-use-vanilla-js)
-- [8. Conclusion ](#conclusion)
+1. [Definition of frameworks and vanilla JS ](#definition-of-frameworks-and-vanilla-js)
+2. [ Advantages of using frameworks ](#advantages-of-using-frameworks)
+3. [ Advantages of using vanilla JS ](#advantages-of-using-vanilla-js)
+4. [ Disadvantages of using frameworks ](#disadvantages-of-using-frameworks)
+5. [ Disadvantages of using vanilla JS ](#disadvantages-of-using-vanilla-js)
+6. [ Examples of popular frameworks ](#examples-of-popular-frameworks)
+7. [ When to use a framework vs. when to use vanilla JS. ](#when-to-use-a-framework-vs-when-to-use-vanilla-js)
+8. [ Conclusion ](#conclusion)
 
 ## Definition of frameworks and vanilla JS
 
