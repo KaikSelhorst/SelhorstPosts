@@ -1,0 +1,17 @@
+{
+  "meta": [
+    {
+      "name": "description",
+      "content": "This article compares the use of frameworks versus vanilla JavaScript for web development, discussing the advantages and drawbacks of each approach."
+    },
+    {
+      "name": "keywords",
+      "content": "Frameworks, VanillaJS, Kaik Selhorst, JavaScript"
+    },
+    {
+      "name": "author",
+      "content": "Kaik Selhorst"
+    }
+  ],
+  "date": "2023-04-12"
+}
