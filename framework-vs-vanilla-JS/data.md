@@ -32,7 +32,7 @@ A framework is a pre-built collection of libraries, tools, and conventions that 
 
 ### 2. Vanilla JS:
 
-# Framework vs. Vanilla JS
+## Framework vs. Vanilla JS
 
 Vanilla JS refers to using plain JavaScript without any external libraries or frameworks. It involves writing custom code for every aspect of the application. Vanilla JS is often used when developers need more control over their code or when they want to avoid the overhead of using a framework. Vanilla JS can also be useful for small projects or prototypes.
 
