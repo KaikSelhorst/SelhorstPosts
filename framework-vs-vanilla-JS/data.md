@@ -69,6 +69,43 @@ Using frameworks in software development can bring several advantages, including
 
 Overall, using frameworks can help improve efficiency, maintainability, and security in software development, while also promoting collaboration and standardization within development teams.
 
+_Minimal code example of using the React framework to create a simple web application:_
+
+```javascript
+import React from "react";
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { count: 0 };
+  }
+
+  handleClick() {
+    this.setState({ count: this.state.count + 1 });
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Click Counter</h1>
+        <p>You have clicked the button {this.state.count} times.</p>
+        <button onClick={() => this.handleClick()}>Click me</button>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+In this code, we are using the React framework to create a simple click counter application. The `App` class extends the `React.Component` class and defines the state of the application, which includes a `count` variable initialized to 0.
+
+The `handleClick()` method is called when the button is clicked, and it updates the `count` variable by calling the `setState()` method, which is a built-in React method for updating the state.
+
+The `render()` method defines the user interface of the application using JSX syntax, which is a JavaScript extension that allows us to write HTML-like syntax within our JavaScript code. The UI includes a heading, a paragraph displaying the current count, and a button that calls the `handleClick()` method when clicked.
+
+Finally, we export the `App` class as the default export of our module, which allows it to be imported and used in other parts of our application.
+
 ## Advantages of using vanilla JS
 
 Vanilla JS, which refers to the use of JavaScript without any additional libraries or frameworks, can have several advantages, including:
@@ -84,6 +121,38 @@ Vanilla JS, which refers to the use of JavaScript without any additional librari
 - Lower learning curve: Since vanilla JS relies on the core features of the language, developers who are new to JavaScript may find it easier to learn and understand compared to more complex libraries or frameworks.
 
 Overall, using vanilla JS can offer greater control, flexibility, and performance, while also helping developers improve their skills and understanding of the JavaScript language. However, it may not always be the best choice for large or complex projects where the use of libraries or frameworks can improve efficiency and maintainability.
+
+_Here is an example of using Vanilla JS to create a simple function that toggles the visibility of an HTML element when clicked:_
+
+```javascript
+// Template.js
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vanilla JS Example</title>
+  </head>
+  <body>
+    <button onclick="toggleVisibility()">Toggle</button>
+    <div id="content" style="display:none">
+      <p>This is some content that will be hidden or shown.</p>
+    </div>
+    <script>
+      function toggleVisibility() {
+        var element = document.getElementById("content");
+        if (element.style.display === "none") {
+          element.style.display = "block";
+        } else {
+          element.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
+```
+
+This code defines a button and a hidden div element with some content inside. The `toggleVisibility` function uses `document.getElementById` to get the div element, and then checks its current `style.display` value to determine whether it should be shown or hidden. When the button is clicked, the function is called, and the div element is either shown or hidden based on its current state. This is a simple example of using Vanilla JS to create dynamic behavior on a web page without relying on external libraries or frameworks.
 
 ## Disadvantages of using frameworks
 
@@ -103,6 +172,36 @@ While frameworks can offer many advantages, they also have some potential disadv
 
 Overall, frameworks can be a powerful tool for software development, but it's important to weigh the benefits against the potential drawbacks and to choose a framework that best fits the specific needs of a project.
 
+_An example of code that illustrates this scenario can be the following:_
+
+```javascript
+// Template.php
+
+// Example code using the Laravel framework and the Doctrine ORM library.
+
+// Importing the necessary classes.
+use Illuminate\Database\Eloquent\Model; // Base class of the Eloquent ORM.
+use Doctrine\ORM\Mapping as ORM; // Mapping of objects of the Doctrine ORM.
+
+// Definition of a model class using the Eloquent ORM.
+class User extends Model {
+    protected $table = 'users'; // Name of the table in the database.
+    protected $fillable = ['name', 'email', 'password']; // Fillable fields.
+
+    // Definition of a relationship using the Eloquent ORM.
+    public function posts() {
+        return $this->hasMany('App\Post');
+    }
+}
+
+// Attempt to use Doctrine ORM to perform database queries.
+$entityManager = EntityManager::create($conn, $config);
+$userRepository = $entityManager->getRepository(User::class);
+$users = $userRepository->findAll();
+```
+
+In this example, the developer tries to use Doctrine ORM to perform database queries, but may encounter difficulties in integrating the library with the Laravel framework due to its dependency on the Eloquent ORM. This can limit the flexibility of the project and require a careful analysis of possible solutions.
+
 ## Disadvantages of using vanilla JS
 
 While vanilla JS can offer several advantages, it also has some potential disadvantages, including:
@@ -120,6 +219,36 @@ While vanilla JS can offer several advantages, it also has some potential disadv
 - Browser inconsistencies: Vanilla JS can sometimes have browser compatibility issues that are not always present in frameworks or libraries.
 
 Overall, using vanilla JS can be a good choice for smaller projects or for developers who prefer to have more control over their code. However, it may not always be the best choice for larger or more complex projects where pre-built functionality and frameworks can help improve efficiency, consistency, and maintainability.
+
+_Here's an example of a minimal Vanilla JS code that displays a "Hello, World!" message when a button is clicked:_
+
+```javascript
+// Template.js
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Minimal Vanilla JS Example</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="message">Hello, Vanilla JS!</h1>
+      <button id="change-message">Change Message</button>
+    </div>
+    <script>
+      const messageEl = document.getElementById("message");
+      const changeMessageBtn = document.getElementById("change-message");
+
+      changeMessageBtn.addEventListener("click", function() {
+        messageEl.textContent = "Hello, World!";
+      });
+    </script>
+  </body>
+</html>
+```
+
+In this example, we define two variables for the message and the button elements using `document.getElementById()`. We then use `addEventListener()` to listen for a click event on the button and change the message text using the `textContent` property of the message element. While this example is simple, it demonstrates how Vanilla JS can be used to create basic interactivity on a web page.
 
 ## Examples of popular frameworks
 
