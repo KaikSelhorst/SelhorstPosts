@@ -1,3 +1,5 @@
+# Frameworks vs Vanilla JS
+
 1. [Definition of frameworks and vanilla JS ](#definition-of-frameworks-and-vanilla-js)
 2. [ Advantages of using frameworks ](#advantages-of-using-frameworks)
 3. [ Advantages of using vanilla JS ](#advantages-of-using-vanilla-js)
