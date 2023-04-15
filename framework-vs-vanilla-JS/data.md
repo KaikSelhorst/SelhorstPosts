@@ -1,5 +1,19 @@
 # Frameworks vs Vanilla JS
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Vanilla JS](#vanilla-js)
+3. [JavaScript Frameworks](#javascript-frameworks)
+4. [Comparison](#comparison-between-vanilla-js-and-frameworks)
+   - Vanilla JS
+     - [Advantages](#advantages-of-vanilla-js)
+     - [Disadvantages](#disadvantages-of-vanilla-js)
+   - Frameworks
+     - [Advantages](#advantages-of-frameworks)
+     - [Disadvantages](#disadvantages-of-frameworks)
+5. [Conclusion](#conclusion)
+
 ## Introduction
 
 JavaScript is one of the most popular programming languages in the world and is used in virtually every area of software development. When it comes to developing web applications, there are two main approaches that developers can use: Vanilla JavaScript and JavaScript frameworks, such as React, Vue, and Angular.
